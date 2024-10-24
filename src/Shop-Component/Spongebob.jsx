@@ -23,10 +23,10 @@ function Spongebob(){
        <div className='maincard'>
         <img src={Spongemain} alt="" />
         </div>
-        <div className="cardbox">
+        <div className="shop-cardbox">
       {spongecards.map(item =>(
        
-        <div className='card'>
+        <div className='shop-card'>
           <div className='blkimg'>
           <img src={item.img} alt="" />
           </div>

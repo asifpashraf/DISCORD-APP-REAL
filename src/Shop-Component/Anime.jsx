@@ -32,10 +32,10 @@ function Anime() {
          <div className='maincard'>
           <img src={Animemain} alt="" />
       </div>
-      <div className="cardbox">
+      <div className="shop-cardbox">
     {animecards.map(item =>(
      
-      <div className='card'>
+      <div className='shop-card'>
         <div className='blkimg'>
         <img src={item.img} alt="" />
         </div>

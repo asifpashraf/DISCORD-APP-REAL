@@ -67,11 +67,11 @@ function Champions() {
         <div className='maincard'>
           <img src={Champmain} alt="" />
       </div>
-      <div className="cardbox">
+      <div className="shop-cardbox">
     {champcards.map(item =>(
      
      
-     <div className='card' >
+     <div className='shop-card' >
      <div className='blkimg'>
      <img src={item.img} alt="" />
      </div>
