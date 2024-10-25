@@ -1,35 +1,36 @@
 import React from 'react'
-import danish from '../src/assets/settings-images/danish.png'
-import German from '../src/assets/settings-images/German.png'
-import UK from '../src/assets/settings-images/UK.png'
-import US from '../src/assets/settings-images/US.png'
-import Spanish from '../src/assets/settings-images/Spanish.png'
-import LATAM from '../src/assets/settings-images/LATAM.png'
-import French from '../src/assets/settings-images/French.png'
-import Croatian from '../src/assets/settings-images/Croatian.png'
-import Italian from '../src/assets/settings-images/Italian.png'
-import Lithuanian from '../src/assets/settings-images/Lithuanian.png'
-import Hungarian from '../src/assets/settings-images/Hungarian.png'
-import du from '../src/assets/settings-images/du.png'
-import Norsk from '../src/assets/settings-images/Norsk.png'
-import Polski from '../src/assets/settings-images/Polski.png'
-import Brasil from '../src/assets/settings-images/Brasil.png'
-import Română from '../src/assets/settings-images/Română.png'
-import Suomi from '../src/assets/settings-images/Suomi.png'
-import Svenska from '../src/assets/settings-images/Svenska.png'
-import Tiếng from '../src/assets/settings-images/Tiếng.png'
-import Türkçe from '../src/assets/settings-images/Türkçe.png'
-import Čeština from '../src/assets/settings-images/Čeština.png'
-import Ελληνικά from '../src/assets/settings-images/Ελληνικά.png'
-import Bulgarian from '../src/assets/settings-images/Bulgarian.png'
-import Russian from '../src/assets/settings-images/Russian.png'
-import Ukrainian from '../src/assets/settings-images/Ukrainian.png'
-import हिंदी from '../src/assets/settings-images/हिंदी.png'
-import Thai from '../src/assets/settings-images/Thai.png'
-import China from '../src/assets/settings-images/China.png'
-import Japanese from '../src/assets/settings-images/Japanese.png'
-import Chinese from '../src/assets/settings-images/Chinese.png'
-import Korean from '../src/assets/settings-images/Korean.png'
+import danish from '/src/assets/settings-images/danish.png'
+import German from '/src/assets/settings-images/German.png'
+import UK from '/src/assets/settings-images/UK.png'
+import US from '/src/assets/settings-images/US.png'
+import Spanish from '/src/assets/settings-images/Spanish.png'
+import LATAM from '/src/assets/settings-images/LATAM.png'
+import French from '/src/assets/settings-images/French.png'
+import Croatian from '/src/assets/settings-images/Croatian.png'
+import Italian from '/src/assets/settings-images/Italian.png'
+import Lithuanian from '/src/assets/settings-images/Lithuanian.png'
+import Hungarian from '/src/assets/settings-images/Hungarian.png'
+import du from '/src/assets/settings-images/du.png'
+import Norsk from '/src/assets/settings-images/Norsk.png'
+import Polski from '/src/assets/settings-images/Polski.png'
+import Brasil from '/src/assets/settings-images/Brasil.png'
+import Română from '/src/assets/settings-images/Română.png'
+import Suomi from '/src/assets/settings-images/Suomi.png'
+import Svenska from '/src/assets/settings-images/Svenska.png'
+import Tiếng from '/src/assets/settings-images/Tiếng.png'
+import Türkçe from '/src/assets/settings-images/Türkçe.png'
+import Čeština from '/src/assets/settings-images/Čeština.png'
+import Ελληνικά from '/src/assets/settings-images/Ελληνικά.png'
+import Bulgarian from '/src/assets/settings-images/Bulgarian.png'
+import Russian from '/src/assets/settings-images/Russian.png'
+import Ukrainian from '/src/assets/settings-images/Ukrainian.png'
+import हिंदी from '/src/assets/settings-images/हिंदी.png'
+import Thai from '/src/assets/settings-images/Thai.png'
+import China from '/src/assets/settings-images/China.png'
+import Japanese from '/src/assets/settings-images/Japanese.png'
+import Chinese from '/src/assets/settings-images/Chinese.png'
+import Korean from '/src/assets/settings-images/Korean.png'
+import Esc from './Esc'
 
 
 
@@ -71,8 +72,9 @@ function Language() {
   return (
     <div   className='language_01'>
       <div className="language_02">
-         <button>×</button>
-        <h6>ESC</h6>
+         {/* <button>×</button>
+        <h6>ESC</h6> */}
+        <Esc/>
       </div>
       <div className="language_03">
         <h3>Language</h3>

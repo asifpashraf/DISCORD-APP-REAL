@@ -1,12 +1,14 @@
 import React from 'react'
-import screen3 from '../src/assets/settings-images/screen3.png'
-import screen2 from '../src/assets/settings-images/screen2.png'
+import screen3 from '/src/assets/settings-images/screen3.png'
+import screen2 from '/src/assets/settings-images/screen2.png'
+import Esc from './Esc'
 function Notification() {
   return (
     <div className='notifiction_first'>
      <div className="notifiction_second">
-      <button>×</button>
-      <h6>ESC</h6>
+      {/* <button>×</button>
+      <h6>ESC</h6> */}
+      <Esc/>
      </div>
      <div className="notification_third">
        <h2>Notifications</h2>

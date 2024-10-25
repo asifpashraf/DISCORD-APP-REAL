@@ -1,32 +1,33 @@
 import React from 'react';
-import Apperiancebox from '../src/assets/settings-images/apperiance box.png';
-import sync from '../src/assets/settings-images/sync.png';
-import colors from '../src/assets/settings-images/colors.png'
-import icon1 from '../src/assets/settings-images/icon1.png'
-import icon2 from '../src/assets/settings-images/icon2.png'
-import icon3 from '../src/assets/settings-images/icon3.png'
-import icon4 from '../src/assets/settings-images/icon4.png'
-import icon5 from '../src/assets/settings-images/icon5.png'
-import icon6 from '../src/assets/settings-images/icon6.png'
-import icon7 from '../src/assets/settings-images/icon7.png'
-import icon8 from '../src/assets/settings-images/icon8.png'
-import icon9 from '../src/assets/settings-images/icon9.png'
+import Apperiancebox from '/src/assets/settings-images/apperiance box.png';
+import sync from '/src/assets/settings-images/sync.png';
+import colors from '/src/assets/settings-images/colors.png'
+import icon1 from '/src/assets/settings-images/icon1.png'
+import icon2 from '/src/assets/settings-images/icon2.png'
+import icon3 from '/src/assets/settings-images/icon3.png'
+import icon4 from '/src/assets/settings-images/icon4.png'
+import icon5 from '/src/assets/settings-images/icon5.png'
+import icon6 from '/src/assets/settings-images/icon6.png'
+import icon7 from '/src/assets/settings-images/icon7.png'
+import icon8 from '/src/assets/settings-images/icon8.png'
+import icon9 from '/src/assets/settings-images/icon9.png'
 // import icon10 from '../src/assets/icon10.png'
-import icon11 from '../src/assets/settings-images/icon11.png'
-import icon12 from '../src/assets/settings-images/icon12.png'
-import icon13 from '../src/assets/settings-images/icon13.png'
-import icon14 from '../src/assets/settings-images/icon14.png'
-import icon15 from '../src/assets/settings-images/icon15.png'
-import icon16 from '../src/assets/settings-images/icon16.png'
-import icon17 from '../src/assets/settings-images/icon17.png'
-import icon18 from '../src/assets/settings-images/icon18.png'
-import icon19 from '../src/assets/settings-images/icon19.png'
-import icon20 from '../src/assets/settings-images/icon20.png'
-import icon21 from '../src/assets/settings-images/icon21.png'
-import icon22 from '../src/assets/settings-images/icon22.png'
-import icon23 from '../src/assets/settings-images/icon23.png'
-import screen from '../src/assets/settings-images/screen.png'
+import icon11 from '/src/assets/settings-images/icon11.png'
+import icon12 from '/src/assets/settings-images/icon12.png'
+import icon13 from '/src/assets/settings-images/icon13.png'
+import icon14 from '/src/assets/settings-images/icon14.png'
+import icon15 from '/src/assets/settings-images/icon15.png'
+import icon16 from '/src/assets/settings-images/icon16.png'
+import icon17 from '/src/assets/settings-images/icon17.png'
+import icon18 from '/src/assets/settings-images/icon18.png'
+import icon19 from '/src/assets/settings-images/icon19.png'
+import icon20 from '/src/assets/settings-images/icon20.png'
+import icon21 from '/src/assets/settings-images/icon21.png'
+import icon22 from '/src/assets/settings-images/icon22.png'
+import icon23 from '/src/assets/settings-images/icon23.png'
+import screen from '/src/assets/settings-images/screen.png'
 import { useState } from 'react';
+import Esc from './Esc';
 
 function Apperiance() {
   const [theme, setTheme] = useState('light'); 
@@ -71,8 +72,8 @@ const handleChange = (e) => {
     <div className='Apperiancefirst'>
       <div className='Apperiancesecond'>
         <h2>Appearance</h2>
-        <button id='apperiancebutton'>×</button>
-        <h6>ESC</h6>
+        {/* <button id='apperiancebutton'>×</button>
+        <h6>ESC</h6> */}
         <div className="apperiancebox">
           <img src={Apperiancebox} alt="" />
         </div>
@@ -188,6 +189,8 @@ const handleChange = (e) => {
           <div className="apperiance_last_p">
           <p>Can’t find what you’re looking for? Check out the <a href="">Accessibility</a> settings.</p></div>
       </div>
+
+      <Esc/>
     </div>
   );
 }

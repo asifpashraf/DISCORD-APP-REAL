@@ -1,11 +1,13 @@
 import React from 'react'
-import keybindsimg from '../src/assets/settings-images/keybindsimg.png'
+import keybindsimg from '/src/assets/settings-images/keybindsimg.png'
+import Esc from './Esc'
 function Keybinds() {
   return (
    <div className="keybinds_first">
        <div className="keybinds_second">
-         <button>×</button>
-         <h6>ESC</h6>
+         {/* <button>×</button>
+         <h6>ESC</h6> */}
+         <Esc/>
        </div>
        <div className="keybinds_third">
         <h3>Keybinds</h3>

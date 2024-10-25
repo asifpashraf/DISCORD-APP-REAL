@@ -251,7 +251,7 @@ text-align: start;
     margin: 20px 0px 0px 50px;
   }
   
-  .content {
+  .contentt {
     width: 60%;
     color: #ffffff;
     font-family: Arial, sans-serif;
@@ -264,7 +264,7 @@ text-align: start;
   
   .content p {
     font-size: 14px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
   }
   
   .content ul {

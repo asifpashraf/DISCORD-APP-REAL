@@ -8,6 +8,7 @@ import serverbosterimg from '/src/assets/settings-images/serverbosterimg.png';
 import serverbooster1 from '/src/assets/settings-images/serverbooster1.png';
 import serverbosterimg4 from '/src/assets/settings-images/serverbosterimg4.png';
 import serverboster5 from '/src/assets/settings-images/serverboster5.png';
+import Esc from './Esc'
 
 function ServerBooster() {
   const [Ismodalopen, Setismodalopen] = useState(false);
@@ -38,8 +39,8 @@ function ServerBooster() {
   return (
     <div className="serverbooster_first">
       <div className="serverbooster_second">
-        <button>×</button>
-        <h6>ESC</h6>
+        {/* <button>×</button>
+        <h6>ESC</h6> */}
       </div>
       <div className="serverbooster_third">
         <img src={serverbosterimg} alt="" />
@@ -50,7 +51,7 @@ function ServerBooster() {
       </div>
       <div className="serverbooster_fifth">
         <div className="serverbooster_5_5">
-          <img src={serverbooster1} alt="" /> {/* Corrected image reference */}
+          <img src={serverbooster1} alt="" /> 
         </div>
         <div className="serverbooster_5_6">
           <button onClick={togglemodal}>Boost this server</button>
@@ -98,6 +99,8 @@ function ServerBooster() {
       <div className="server_box_2">
       <img src={serverboster5} alt="" />
       </div>
+
+      <Esc/>
     </div>
   );
 }

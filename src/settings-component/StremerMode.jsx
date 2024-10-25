@@ -1,13 +1,15 @@
 import React from 'react'
-import streamermodeimg from '../src/assets/settings-images/streamermodeimg.png'
-  import screen3 from '../src/assets/settings-images/screen3.png'
-  import screen2 from '../src/assets/settings-images/screen2.png'
+import streamermodeimg from '/src/assets/settings-images/streamermodeimg.png'
+  import screen3 from '/src/assets/settings-images/screen3.png'
+  import screen2 from '/src/assets/settings-images/screen2.png'
+import Esc from './Esc'
 function StremerMode() {
   return (
     <div className='streamermode_first'>
       <div className="streamermode_second">
-         <button>×</button>
-         <h6>ESC</h6>
+         {/* <button>×</button>
+         <h6>ESC</h6> */}
+         <Esc/>
      </div>
      <div className="streamermode_third">
         <h4>Streamer Mode</h4>

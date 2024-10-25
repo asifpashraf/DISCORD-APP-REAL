@@ -14,7 +14,7 @@
     overflow-x: hidden ;
     background-color:#313338;
     position: relative;
-    left: 380px;
+    left: 10px;
    
   }
   .subsecond{
@@ -80,7 +80,7 @@
     overflow-x: hidden ;
     background-color:#313338;
     position: relative;
-    left: 380px;
+    left: 10px;
   }
   .giftsecond{
     height: 500px;
@@ -221,13 +221,13 @@
 /* .......................................ServerBooster///////////////////////////// */
 
 .serverbooster_first{
-  height: 420vh;
+  height: 330vh;
   width: 70%;
   overflow-y: hidden;
   overflow-x: hidden ;
   background-color:#313338;
   position: relative;
-  /* left:380px; */
+  left:10px;
 
 }
 .serverbooster_second{
@@ -438,7 +438,7 @@
     overflow-x: hidden ;
     background-color:#313338;
     position: relative;
-    left: 380px;
+    left: 10px;
 }
 .billingsecond{
   height: 500px;
@@ -781,7 +781,7 @@ color:#1494e3;
     overflow-x: hidden ;
     background-color:#313338;
     position: relative;
-    left: 380px;
+    left: 10px;
 }
 .Apperiancesecond{
   height: 550px;
@@ -1230,7 +1230,7 @@ top: 50px;
   overflow-x: hidden ;
   background-color:#313338;
   position: relative;
-  left: 380px;
+  left: 10px;
 }
 .Accessibilit_Second{
   height: 550px;
@@ -1794,7 +1794,7 @@ padding: 10px;
   overflow-x: hidden ;
   background-color:#313338;
   position: relative;
-  left: 380px;
+  left: 10px;
   
 }  
 .voice_second{
@@ -2636,7 +2636,7 @@ left: 10px;
     overflow-x: hidden ;
     background-color:#313338;
     position: relative;
-    left: 380px;
+    left: 10px;
 }
 .chat_second{
   height: 550px;
@@ -2802,7 +2802,7 @@ left: 10px;
   overflow-x: hidden ;
   background-color:#313338;
   position: relative;
-  left: 380px;
+  left: 10px;
 }
 .notifiction_second{
   height: 550px;
@@ -3138,7 +3138,7 @@ color: rgba(255, 255, 255, 0.584);
   overflow-x: hidden ;
   background-color:#313338;
   position: relative;
-  left:380px;
+  left:10px;
 }
 .advanced_02{
   height: 550px;
@@ -3218,7 +3218,7 @@ color: rgba(255, 255, 255, 0.584);
   overflow-x: hidden ;
   background-color:#313338;
   position: relative;
-  left:380px;
+  left:10px;
 }
 .language_02{
   height: 550px;
@@ -3308,7 +3308,7 @@ left: 10px;
   overflow-x: hidden ;
   background-color:#313338;
   position: relative;
-  left:380px;
+  left:10px;
 }
 .streamermode_Second{
   height: 550px;
@@ -3457,7 +3457,7 @@ left: 10px;
   overflow-x: hidden ;
   background-color:#313338;
  position: relative;
- left: 380px;
+ left: 10px;
 }
 .keybinds_second{
   height: 550px;

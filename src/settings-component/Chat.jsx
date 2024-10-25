@@ -1,12 +1,14 @@
 import React from 'react'
- import screen3 from '../src/assets/settings-images/screen3.png'
- import screen2 from '../src/assets/settings-images/screen2.png'
+ import screen3 from '/src/assets/settings-images/screen3.png'
+ import screen2 from '/src/assets/settings-images/screen2.png'
+import Esc from './Esc'
 function Chat() {
   return (
     <div className='chat_first'>
       <div className="chat_second">
-        <button>×</button>
-        <h6>ESC</h6>
+        {/* <button>×</button>
+        <h6>ESC</h6> */}
+        <Esc/>
       </div>
       <div className="chat_third">
         <h3>Chat</h3>

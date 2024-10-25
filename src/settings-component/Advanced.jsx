@@ -1,11 +1,13 @@
 import React from 'react'
-  import screen3 from '../src/assets/settings-images/screen3.png'
+  import screen3 from '/src/assets/settings-images/screen3.png'
+import Esc from './Esc'
 function Advanced() {
   return (
    <div className="advanced_01">
     <div className="advanced_02">
-       <button>×</button>
-        <h6>ESC</h6>
+       {/* <button>×</button>
+        <h6>ESC</h6> */}
+        <Esc/>
     </div>
     <div className="advanced_03">
         <h2>Advanced</h2>

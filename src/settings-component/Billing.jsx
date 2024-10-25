@@ -1,13 +1,14 @@
 import { useState } from 'react';
 
-import unlock from '../src/assets/settings-images/unlock.png';
-import card from '../src/assets/settings-images/card.png'
-import paypal from '../src/assets/settings-images/paypal.png'
-import debitcard from'../src/assets/settings-images/debitcard.png'
-import visacard from'../src/assets/settings-images/visacard.png'
-import discover from '../src/assets/settings-images/discover.png'
-import master from'../src/assets/settings-images/mastercaed.png'
+import unlock from '/src/assets/settings-images/unlock.png';
+import card from '/src/assets/settings-images/card.png'
+import paypal from '/src/assets/settings-images/paypal.png'
+import debitcard from'/src/assets/settings-images/debitcard.png'
+import visacard from'/src/assets/settings-images/visacard.png'
+import discover from '/src/assets/settings-images/discover.png'
+import master from'/src/assets/settings-images/mastercaed.png'
 import PostBox from './PostBox';
+import Esc from './Esc';
 // import { PostBox } from './PostBox'; // Use destructuring to import named exports
 
 function Billing() {
@@ -37,8 +38,8 @@ function Billing() {
           <img src={unlock} alt="unlock" />
           <h2>Payment Methods</h2>
         </div>
-        <button onClick={closeModal}>×</button>
-        <h6>ESC</h6>
+        {/* <button onClick={closeModal}>×</button>
+        <h6>ESC</h6> */}
         <div className="billingparagraph">
           <p>No payment method saved</p>
           <p id='billingp'>Checkout faster by saving a payment method</p>
@@ -110,6 +111,7 @@ function Billing() {
      </div>
 
       </div>
+      <Esc/>
     </div>
   );
 }

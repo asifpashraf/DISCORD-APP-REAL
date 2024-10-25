@@ -1,14 +1,15 @@
 import React from 'react'
-import giftbox from '../src/assets/settings-images/giftboximg.jpg'
-import giftbox2 from '../src/assets/settings-images/giftbox2.png'
+import giftbox from '/src/assets/settings-images/giftboximg.jpg'
+import giftbox2 from '/src/assets/settings-images/giftbox2.png'
+import Esc from './Esc'
 function GiftInvintory() {
   return (
    <div className="giftfirst">
     <div className="giftsecond">
      <h3>Redeem Codes</h3><br />
      <p>RACEIVED A CODE FOR NITRO OR A GAME? THAT'S EXCITING! IT BELOW: </p>
-     <button>×</button>   
-     <h6>ESC</h6>
+     {/* <button>×</button>   
+     <h6>ESC</h6> */}
           <input type="text"  placeholder='WUMP-AAAAA-CCCCC'/>  
      <button id='giftbutton'>Redeem</button>
      <div className='giftbox'>
@@ -30,6 +31,7 @@ function GiftInvintory() {
        </div>
      </div>
     </div>
+    <Esc/>
    </div>
 
   )
