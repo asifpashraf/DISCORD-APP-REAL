@@ -76,7 +76,7 @@ function Champions() {
      <img src={item.img} alt="" />
      </div>
      <div className='cardcont'>
-     <h4>{item.heading}</h4>
+     <h3>{item.heading}</h3>
      <div className='rate'>
        <p>{item.rate}</p>
        <span>{item.percentage}</span>

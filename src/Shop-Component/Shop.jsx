@@ -3,17 +3,17 @@ import Nav from "./nav"
 import Dojo from "./Dojo"
 import Champions from "./Champions"
 import Spongebob from "./Spongebob"
-import Palworld from "./Palworld"
 import Galaxy from "./Galaxy"
 import Anime from "./Anime"
 import Lofi from "./Lofi"
 import './shop-style.css'
 import Dark from "./Dark"
+import Fantasy from "./Fantasy"
 
 function Shop() {
 
   return (
-   <div className="container-main">
+   <div className="shop-main">
      <div className="shop">
      <Nav/>
 
@@ -23,10 +23,10 @@ function Shop() {
      <Champions/>
      <Spongebob/> 
      <Dark />
-     <Palworld/>
      <Galaxy/>
      <Anime/>
      <Lofi/> 
+     <Fantasy/>
      </div>
      </div>
    </div>
