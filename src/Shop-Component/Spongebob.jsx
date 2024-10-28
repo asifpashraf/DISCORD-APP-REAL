@@ -1,5 +1,5 @@
 import React from 'react'
-import Discord from '/src/assets/shop-images/discord.png'
+import Discord from '../assets/Shop-images/discord.png'
 import Spongemain from '/src/assets/shop-images/spongemain.png'
 
 function Spongebob(){
