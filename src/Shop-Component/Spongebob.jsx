@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react'
 
 import Spongemain from '/src/assets/shop-images/spongebob/spongemain.png'
@@ -17,6 +18,9 @@ import ocean from '/src/assets/Shop-images/spongebob/ocean.png'
 import gift from '/src/assets/shop-images/gift.png'
 import nitro from '/src/assets/shop-images/nitro.png'
 import Modal from './Buymodal'
+
+
+
 
 function Spongebob(){
   const [isModalOpen, setIsModalOpen] = useState(false);

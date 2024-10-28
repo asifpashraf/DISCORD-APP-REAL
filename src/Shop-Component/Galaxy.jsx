@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
 
-import Discord from '/src/assets/shop-images/discord.png'
+import React, { useState } from 'react'
 import Galaxymain from '/src/assets/shop-images/galaxy/galaxymain.png'
 import stargazing from '/src/assets/shop-images/galaxy/stargazing.png'
 import stardust from '/src/assets/shop-images/galaxy/stardust.png'
@@ -16,6 +15,8 @@ import twilight from '/src/assets/shop-images/galaxy/twilight.png'
 import nitro from '/src/assets/shop-images/nitro.png'
 import gift from '/src/assets/shop-images/gift.png'
 import Modal from './Buymodal'
+
+
 
 function Galaxy() {
   const [isModalOpen, setIsModalOpen] = useState(false);

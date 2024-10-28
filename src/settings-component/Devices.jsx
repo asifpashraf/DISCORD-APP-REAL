@@ -1,4 +1,5 @@
 import React from 'react'
+import Esc from './Esc'
 // import Underline from './Underline'
 
 const Devices = () => {
@@ -47,6 +48,7 @@ const Devices = () => {
         <p>You'll have to log back in on all logged out devices</p>
         <button>Log Out All Know Devices</button>
        </div>
+       <Esc/>
     </div>
   )
 }
