@@ -15,7 +15,7 @@ import doodle from '/src/assets/Shop-images/spongebob/doodlebob.png'
 import plankton from '/src/assets/Shop-images/spongebob/plankton.png'
 import ocean from '/src/assets/Shop-images/spongebob/ocean.png'
 
-import gift from '/src/assets/shop-images/gift.png'
+import gift from '/src/assets/Shop-images/gift.png'
 import nitro from '/src/assets/shop-images/nitro.png'
 import Modal from './Buymodal'
 
