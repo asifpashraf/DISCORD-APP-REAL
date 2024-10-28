@@ -4,6 +4,7 @@ import FamilyCenterHeader from './FamilyCenterHeader';
 import FamilyCenterBody1 from './FamilyCenterBodyOne';
 import FamilyCenterBody2 from './FamilyCenterBodyTwo';  // Uncomment when needed
 import FamilyCenterBody3 from './FamilyCenterBodyThree'; // Uncomment when needed
+import Esc from './Esc';
 
 const FamilyCenterMain = () => {
   // State to track the active component
@@ -16,6 +17,7 @@ const FamilyCenterMain = () => {
 
   return (
     <div className='contuiner'>
+      <Esc/>
       {/* Pass the handleMenuClick function to FamilyCenterHeader */}
       <FamilyCenterHeader handleMenuClick={handleMenuClick} />
 

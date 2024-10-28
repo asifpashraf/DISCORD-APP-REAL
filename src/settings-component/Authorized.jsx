@@ -1,4 +1,5 @@
 import React from 'react'
+import Esc from './Esc'
 
 const Authorized = () => {
   return (
@@ -18,6 +19,7 @@ const Authorized = () => {
      <div className="audhorized-cntr-box">
       
      </div>
+      <Esc/>
     </div>
   )
 }

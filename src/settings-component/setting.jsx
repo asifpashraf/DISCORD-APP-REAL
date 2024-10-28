@@ -26,6 +26,11 @@ import Billing from './Billing'
         import Advanced from './Advanced'
 
 import'./settings_index.css'
+import ProfileSetting from './ProfileSetting'
+import ActivityAnd from './ActivityAnd'
+import RegisterdGame from './RegisterdGame'
+import NitroSettings from './NitroSettings'
+import WhatsNew from './WhatsNew'
 function Settings() {
   const [activeComponentMain, setActiveComponentMain] = useState('TabsTwo');
 
@@ -63,11 +68,10 @@ function Settings() {
       {activeComponentMain === 'Language' && <Language/>}
       {activeComponentMain === 'StremerMode' && <StremerMode/>}
       {activeComponentMain === 'Advanced' && <Advanced/>}
-
-
-
-
-     
+      {activeComponentMain === 'ProfileSetting' && <ProfileSetting/>}
+       {activeComponentMain === 'ActivityAnd' && <ActivityAnd/>}
+      {activeComponentMain === 'RegisterdGame' &&    <RegisterdGame/>}
+       {activeComponentMain === 'NitroSettings' && <NitroSettings/>}
     </div>
    </div>
 
