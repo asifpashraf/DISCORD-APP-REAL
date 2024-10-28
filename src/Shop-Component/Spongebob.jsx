@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
 
-import Spongemain from '/src/assets/shop-images/spongebob/spongemain.png'
+import Spongemain from '/src/assets/Shop-images/spongebob/spongemain.png'
 import Sponge from '/src/assets/Shop-images/spongebob/spongebob.png'
 import imagination from '/src/assets/Shop-images/spongebob/imagination.png'
 import patrick from '/src/assets/Shop-images/spongebob/patrick.png'
