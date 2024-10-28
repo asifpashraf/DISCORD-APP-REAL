@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import unlock from '/src/assets/settings-images/unlock.png';
+import unlock from '/src/assets/Settings-images/unlock.png';
 import card from '/src/assets/settings-images/card.png'
 import paypal from '/src/assets/settings-images/paypal.png'
 import debitcard from'/src/assets/settings-images/debitcard.png'
