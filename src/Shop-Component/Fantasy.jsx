@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import fantasymain from '/src/assets/shop-images/fantasy/fantasymain.png'
+import fantasymain from '/src/assets/Shop-images/fantasy/fantasymain.png'
 import fairy from '/src/assets/shop-images/fantasy/fairy.png'
 import sword from '/src/assets/shop-images/fantasy/sword.png'
 import potion from '/src/assets/shop-images/fantasy/potion.png'
