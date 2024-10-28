@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import Champmain from '/src/assets/shop-images/champions/Championsmain.png'
+import Champmain from '/src/assets/shop-images/champions/championsmain.png'
 import supernovabun from '/src/assets/shop-images/champions/supernova bun.png'
 import yorubundle from '/src/assets/shop-images/champions/yoru bundle.png'
 import acebundle from '/src/assets/shop-images/champions/ace bundle.png'
