@@ -12,13 +12,10 @@ import shurikens from '/src/assets/shop-images/dojo/shurikens mark.png'
 import oniscurse from '/src/assets/shop-images/dojo/onis curse.png'
 import ofink from '/src/assets/shop-images/dojo/ofink.png'
 import katana from '/src/assets/shop-images/dojo/katana.png'
+
 import nitro from '/src/assets/shop-images/nitro.png'
 import gift from '/src/assets/shop-images/gift.png'
 import Modal from './Buymodal'
-
-
-
-
 
 
 function Dojo() {
@@ -65,7 +62,7 @@ function Dojo() {
         <img src={item.img} alt="" />
         </div>
         <div className='cardcont'>
-        <h4>{item.heading}</h4>
+        <h3>{item.heading}</h3>
         <div className='rate'>
           <p>{item.rate}</p>
           <span>{item.percentage}</span>
