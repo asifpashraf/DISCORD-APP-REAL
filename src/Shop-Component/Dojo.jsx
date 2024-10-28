@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
 import Dojomain from '/src/assets/Shop-images/dojo/dojomain.png'
-import Inkbundle from '/src/assets/shop-images/dojo/inkbundle.png'
-import Steelbun from '/src/assets/shop-images/dojo/Steelbun.png'
+import Inkbundle from '/src/assets/Shop-images/dojo/inkbundle.png'
+import Steelbun from '/src/assets/shop-images/dojo/steelbun.png'
 import kabuto from '/src/assets/shop-images/dojo/kabuto.png'
 import Onimask from '/src/assets/shop-images/dojo/onimask.png'
 import straw from '/src/assets/shop-images/dojo/straw hat.png'
