@@ -1,5 +1,5 @@
 import React from 'react'
-import giftbox from '/src/assets/settings-images/giftboximg.jpg'
+import giftbox from '/src/assets/Settings-images/giftboximg.jpg'
 import giftbox2 from '/src/assets/settings-images/giftbox2.png'
 import Esc from './Esc'
 function GiftInvintory() {
