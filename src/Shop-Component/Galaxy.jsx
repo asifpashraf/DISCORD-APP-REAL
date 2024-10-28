@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react'
-import Galaxymain from '/src/assets/shop-images/galaxy/galaxymain.png'
+import Galaxymain from '/src/assets/Shop-images/galaxy/galaxymain.png'
 import stargazing from '/src/assets/shop-images/galaxy/stargazing.png'
 import stardust from '/src/assets/shop-images/galaxy/stardust.png'
 import blackhole from '/src/assets/shop-images/galaxy/blackhole.png'
