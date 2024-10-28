@@ -6,7 +6,7 @@ import chatgif from '/src/assets/help-images/chatgif.gif'
 import addicon from '/src/assets/help-images/add_icon.png'
 import gift from '/src/assets/help-images/gift_icon.png'
 import gif from '/src/assets/help-images/gif_icon.png'
-import happygif from '/src/assets/help-images/happygif_icon.png'
+import happygif from '/src/assets/help-images/happyGif_icon.png'
 import happyicon from '/src/assets/help-images/happy_icon.png'
 import groupicon from '/src/assets/help-images/appsCommands.png'
 
