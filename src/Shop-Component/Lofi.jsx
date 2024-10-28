@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import Discord from '/src/assets/shop-images/discord.png'
+
 import Lofimain from '/src/assets/shop-images/lofi/lofimain.png'
 import plant from '/src/assets/shop-images/lofi/plant.png'
 import chromawave from '/src/assets/shop-images/lofi/chromawave.png'

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import Discord from '/src/assets/shop-images/discord.png'
+
 import Darkmain from '/src/assets/shop-images/dark/darkmain.png'
 import spirit from '/src/assets/shop-images/dark/spirit.png'
 import arcanist from '/src/assets/shop-images/dark/arcanist.png'
