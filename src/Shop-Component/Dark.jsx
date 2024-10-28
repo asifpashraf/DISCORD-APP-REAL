@@ -23,10 +23,10 @@ function Dark() {
         <div className='maincard'>
         <img src={Darkmain} alt="" />
         </div>
-        <div className="cardbox">
+        <div className="shop-cardbox">
       {Darkcards.map(item =>(
        
-        <div className='card'>
+        <div className='shop-card'>
           <div className='blkimg'>
           <img src={item.img} alt="" />
           </div>

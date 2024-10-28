@@ -20,10 +20,10 @@ function Lofi() {
             <div className='maincard'>
               <img src={Lofimain} alt="" />
       </div>
-      <div className="cardbox">
+      <div className="shop-cardbox">
     {loficards.map(item =>(
      
-      <div className='card'>
+      <div className='shop-card'>
         <div className='blkimg'>
         <img src={item.img} alt="" />
         </div>

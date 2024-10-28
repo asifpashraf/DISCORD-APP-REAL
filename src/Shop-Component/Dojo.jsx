@@ -57,10 +57,10 @@ function Dojo() {
       <div className='maincard'>
         <img src={Dojomain} alt="" />
       </div>
-      <div className="cardbox" >
+      <div className="shop-cardbox" >
      {dojocards.map(item =>(
      
-      <div className='card' >
+      <div className='shop-card' >
         <div className='blkimg'>
         <img src={item.img} alt="" />
         </div>
