@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 
 import Dojomain from '/src/assets/Shop-images/dojo/dojomain.png'
 import Inkbundle from '/src/assets/Shop-images/dojo/inkbundle.png'
@@ -55,9 +55,9 @@ function Dojo() {
         <img src={Dojomain} alt="" />
       </div>
       <div className="shop-cardbox" >
-     {dojocards.map(item =>(
-     
-      <div className='shop-card' >
+     {dojocards.map((item, index) =>(
+      
+      <div className='shop-card'   key={index}>
         <div className='blkimg'>
         <img src={item.img} alt="" />
         </div>
