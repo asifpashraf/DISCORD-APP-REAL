@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Menubar from './Menubar'
 import Friends from './content'
 import Sidebar from './Sidebar'
