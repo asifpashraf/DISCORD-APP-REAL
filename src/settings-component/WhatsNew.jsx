@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const WhatsNew = () => {
+  const[What,setWhat] = useState(false)
+  const Whatsnewfunc = () =>{
+    setWhat(true)
+  }
+
   return (
     <div>
       <div className="Whats-New-Modal-ctnr">
